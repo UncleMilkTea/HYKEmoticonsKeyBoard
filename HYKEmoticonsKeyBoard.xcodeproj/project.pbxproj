@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8845A0F31CC707D800214198 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8845A0F21CC707D800214198 /* LaunchScreen.xib */; };
+		A2DC2C251CC67F46007CBE65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C241CC67F46007CBE65 /* ViewController.swift */; };
+		A2DC2C281CC67F46007CBE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2C261CC67F46007CBE65 /* Main.storyboard */; };
+		A2DC2C2A1CC67F46007CBE65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2C291CC67F46007CBE65 /* Assets.xcassets */; };
+		A2DC2C381CC6802F007CBE65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C351CC6802F007CBE65 /* AppDelegate.swift */; };
+		A2DC2C391CC6802F007CBE65 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2C361CC6802F007CBE65 /* Emoticons.bundle */; };
+		A2DC2C3A1CC6802F007CBE65 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2C371CC6802F007CBE65 /* Info.plist */; };
+		A2DC2C461CC6803F007CBE65 /* HYKEmoticons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C3C1CC6803F007CBE65 /* HYKEmoticons.swift */; };
+		A2DC2C471CC6803F007CBE65 /* HYKEmoticionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C3D1CC6803F007CBE65 /* HYKEmoticionsButton.swift */; };
+		A2DC2C481CC6803F007CBE65 /* HYKEmoticionsPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C3E1CC6803F007CBE65 /* HYKEmoticionsPopView.swift */; };
+		A2DC2C491CC6803F007CBE65 /* HYKEmoticionsPopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2C3F1CC6803F007CBE65 /* HYKEmoticionsPopView.xib */; };
+		A2DC2C4A1CC6803F007CBE65 /* HYKEmoticionsToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C401CC6803F007CBE65 /* HYKEmoticionsToolBar.swift */; };
+		A2DC2C4B1CC6803F007CBE65 /* HYKEmoticionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C411CC6803F007CBE65 /* HYKEmoticionsView.swift */; };
+		A2DC2C4C1CC6803F007CBE65 /* HYKEmoticionsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C421CC6803F007CBE65 /* HYKEmoticionsViewCell.swift */; };
+		A2DC2C4D1CC6803F007CBE65 /* HYKEmoticonCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C431CC6803F007CBE65 /* HYKEmoticonCollectionView.swift */; };
+		A2DC2C4E1CC6803F007CBE65 /* HYKEmoticonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C441CC6803F007CBE65 /* HYKEmoticonTools.swift */; };
+		A2DC2C4F1CC6803F007CBE65 /* HYKTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C451CC6803F007CBE65 /* HYKTextAttachment.swift */; };
+		A2DC2C631CC68054007CBE65 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C541CC68054007CBE65 /* NSString+Emoji.m */; };
+		A2DC2C701CC68054007CBE65 /* UITextView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2C621CC68054007CBE65 /* UITextView + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8845A0F21CC707D800214198 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = Other/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2DC2C1F1CC67F46007CBE65 /* HYKEmoticonsKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYKEmoticonsKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DC2C241CC67F46007CBE65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2DC2C271CC67F46007CBE65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2DC2C291CC67F46007CBE65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DC2C2E1CC67F46007CBE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DC2C351CC6802F007CBE65 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2DC2C361CC6802F007CBE65 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Emoticons.bundle; path = Other/Emoticons.bundle; sourceTree = "<group>"; };
+		A2DC2C371CC6802F007CBE65 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2DC2C3C1CC6803F007CBE65 /* HYKEmoticons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticons.swift; sourceTree = "<group>"; };
+		A2DC2C3D1CC6803F007CBE65 /* HYKEmoticionsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticionsButton.swift; sourceTree = "<group>"; };
+		A2DC2C3E1CC6803F007CBE65 /* HYKEmoticionsPopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticionsPopView.swift; sourceTree = "<group>"; };
+		A2DC2C3F1CC6803F007CBE65 /* HYKEmoticionsPopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYKEmoticionsPopView.xib; sourceTree = "<group>"; };
+		A2DC2C401CC6803F007CBE65 /* HYKEmoticionsToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticionsToolBar.swift; sourceTree = "<group>"; };
+		A2DC2C411CC6803F007CBE65 /* HYKEmoticionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticionsView.swift; sourceTree = "<group>"; };
+		A2DC2C421CC6803F007CBE65 /* HYKEmoticionsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticionsViewCell.swift; sourceTree = "<group>"; };
+		A2DC2C431CC6803F007CBE65 /* HYKEmoticonCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticonCollectionView.swift; sourceTree = "<group>"; };
+		A2DC2C441CC6803F007CBE65 /* HYKEmoticonTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKEmoticonTools.swift; sourceTree = "<group>"; };
+		A2DC2C451CC6803F007CBE65 /* HYKTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HYKTextAttachment.swift; sourceTree = "<group>"; };
+		A2DC2C511CC68054007CBE65 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		A2DC2C531CC68054007CBE65 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		A2DC2C541CC68054007CBE65 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		A2DC2C621CC68054007CBE65 /* UITextView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView + Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DC2C1C1CC67F46007CBE65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8845A0F11CC7064000214198 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C451CC6803F007CBE65 /* HYKTextAttachment.swift */,
+				A2DC2C3C1CC6803F007CBE65 /* HYKEmoticons.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8845A0F41CC7080800214198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C361CC6802F007CBE65 /* Emoticons.bundle */,
+				A2DC2C291CC67F46007CBE65 /* Assets.xcassets */,
+				A2DC2C261CC67F46007CBE65 /* Main.storyboard */,
+				8845A0F21CC707D800214198 /* LaunchScreen.xib */,
+				A2DC2C2E1CC67F46007CBE65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2DC2C161CC67F45007CBE65 = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C211CC67F46007CBE65 /* HYKEmoticonsKeyBoard */,
+				A2DC2C201CC67F46007CBE65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DC2C201CC67F46007CBE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C1F1CC67F46007CBE65 /* HYKEmoticonsKeyBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DC2C211CC67F46007CBE65 /* HYKEmoticonsKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C241CC67F46007CBE65 /* ViewController.swift */,
+				A2DC2C3B1CC6803F007CBE65 /* Emoticons */,
+				A2DC2C341CC6802F007CBE65 /* Other */,
+				8845A0F41CC7080800214198 /* Supporting Files */,
+			);
+			path = HYKEmoticonsKeyBoard;
+			sourceTree = "<group>";
+		};
+		A2DC2C341CC6802F007CBE65 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C351CC6802F007CBE65 /* AppDelegate.swift */,
+				A2DC2C371CC6802F007CBE65 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A2DC2C3B1CC6803F007CBE65 /* Emoticons */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C501CC68054007CBE65 /* Tool */,
+				8845A0F11CC7064000214198 /* Model */,
+				A2DC2C411CC6803F007CBE65 /* HYKEmoticionsView.swift */,
+				A2DC2C3D1CC6803F007CBE65 /* HYKEmoticionsButton.swift */,
+				A2DC2C3E1CC6803F007CBE65 /* HYKEmoticionsPopView.swift */,
+				A2DC2C3F1CC6803F007CBE65 /* HYKEmoticionsPopView.xib */,
+				A2DC2C401CC6803F007CBE65 /* HYKEmoticionsToolBar.swift */,
+				A2DC2C421CC6803F007CBE65 /* HYKEmoticionsViewCell.swift */,
+				A2DC2C431CC6803F007CBE65 /* HYKEmoticonCollectionView.swift */,
+				A2DC2C441CC6803F007CBE65 /* HYKEmoticonTools.swift */,
+			);
+			path = Emoticons;
+			sourceTree = "<group>";
+		};
+		A2DC2C501CC68054007CBE65 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C521CC68054007CBE65 /* NSStringEmoji */,
+				A2DC2C511CC68054007CBE65 /* BridgeHeader.h */,
+				A2DC2C621CC68054007CBE65 /* UITextView + Extension.swift */,
+			);
+			name = Tool;
+			path = ../Tool;
+			sourceTree = "<group>";
+		};
+		A2DC2C521CC68054007CBE65 /* NSStringEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2C531CC68054007CBE65 /* NSString+Emoji.h */,
+				A2DC2C541CC68054007CBE65 /* NSString+Emoji.m */,
+			);
+			path = NSStringEmoji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DC2C1E1CC67F46007CBE65 /* HYKEmoticonsKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DC2C311CC67F46007CBE65 /* Build configuration list for PBXNativeTarget "HYKEmoticonsKeyBoard" */;
+			buildPhases = (
+				A2DC2C1B1CC67F46007CBE65 /* Sources */,
+				A2DC2C1C1CC67F46007CBE65 /* Frameworks */,
+				A2DC2C1D1CC67F46007CBE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYKEmoticonsKeyBoard;
+			productName = HYKEmoticonsKeyBoard;
+			productReference = A2DC2C1F1CC67F46007CBE65 /* HYKEmoticonsKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DC2C171CC67F45007CBE65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = suger;
+				TargetAttributes = {
+					A2DC2C1E1CC67F46007CBE65 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4CAJ7C5XX7;
+					};
+				};
+			};
+			buildConfigurationList = A2DC2C1A1CC67F45007CBE65 /* Build configuration list for PBXProject "HYKEmoticonsKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DC2C161CC67F45007CBE65;
+			productRefGroup = A2DC2C201CC67F46007CBE65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DC2C1E1CC67F46007CBE65 /* HYKEmoticonsKeyBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DC2C1D1CC67F46007CBE65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC2C391CC6802F007CBE65 /* Emoticons.bundle in Resources */,
+				A2DC2C2A1CC67F46007CBE65 /* Assets.xcassets in Resources */,
+				A2DC2C3A1CC6802F007CBE65 /* Info.plist in Resources */,
+				A2DC2C281CC67F46007CBE65 /* Main.storyboard in Resources */,
+				8845A0F31CC707D800214198 /* LaunchScreen.xib in Resources */,
+				A2DC2C491CC6803F007CBE65 /* HYKEmoticionsPopView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DC2C1B1CC67F46007CBE65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC2C381CC6802F007CBE65 /* AppDelegate.swift in Sources */,
+				A2DC2C481CC6803F007CBE65 /* HYKEmoticionsPopView.swift in Sources */,
+				A2DC2C4E1CC6803F007CBE65 /* HYKEmoticonTools.swift in Sources */,
+				A2DC2C4B1CC6803F007CBE65 /* HYKEmoticionsView.swift in Sources */,
+				A2DC2C4A1CC6803F007CBE65 /* HYKEmoticionsToolBar.swift in Sources */,
+				A2DC2C461CC6803F007CBE65 /* HYKEmoticons.swift in Sources */,
+				A2DC2C631CC68054007CBE65 /* NSString+Emoji.m in Sources */,
+				A2DC2C471CC6803F007CBE65 /* HYKEmoticionsButton.swift in Sources */,
+				A2DC2C4F1CC6803F007CBE65 /* HYKTextAttachment.swift in Sources */,
+				A2DC2C251CC67F46007CBE65 /* ViewController.swift in Sources */,
+				A2DC2C701CC68054007CBE65 /* UITextView + Extension.swift in Sources */,
+				A2DC2C4D1CC6803F007CBE65 /* HYKEmoticonCollectionView.swift in Sources */,
+				A2DC2C4C1CC6803F007CBE65 /* HYKEmoticionsViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2DC2C261CC67F46007CBE65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2DC2C271CC67F46007CBE65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2DC2C2F1CC67F46007CBE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DC2C301CC67F46007CBE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DC2C321CC67F46007CBE65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYKEmoticonsKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suger.HYKEmoticonsKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HYKEmoticonsKeyBoard/Tool/BridgeHeader.h;
+			};
+			name = Debug;
+		};
+		A2DC2C331CC67F46007CBE65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYKEmoticonsKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suger.HYKEmoticonsKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = HYKEmoticonsKeyBoard/Tool/BridgeHeader.h;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DC2C1A1CC67F45007CBE65 /* Build configuration list for PBXProject "HYKEmoticonsKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2C2F1CC67F46007CBE65 /* Debug */,
+				A2DC2C301CC67F46007CBE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DC2C311CC67F46007CBE65 /* Build configuration list for PBXNativeTarget "HYKEmoticonsKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2C321CC67F46007CBE65 /* Debug */,
+				A2DC2C331CC67F46007CBE65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DC2C171CC67F45007CBE65 /* Project object */;
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HYKEmoticionsPopView" customModule="HYKEmoticonsKeyBoard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="64" height="91"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="emoticon_keyboard_magnifier" translatesAutoresizingMaskIntoConstraints="NO" id="qOp-nO-Epw">
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="91"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fD-bb-AGb" customClass="HYKEmoticionsButton" customModule="HYKEmoticonsKeyBoard" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="4fD-bb-AGb" secondAttribute="height" id="Fhw-sx-f7i"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4fD-bb-AGb" secondAttribute="trailing" id="13f-ML-aV1"/>
+                <constraint firstAttribute="trailing" secondItem="qOp-nO-Epw" secondAttribute="trailing" id="FC8-hV-hFu"/>
+                <constraint firstItem="4fD-bb-AGb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Kzl-4u-Dby"/>
+                <constraint firstItem="qOp-nO-Epw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gJ7-sm-4iW"/>
+                <constraint firstItem="4fD-bb-AGb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nlS-HG-sAb"/>
+                <constraint firstItem="qOp-nO-Epw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="v9X-Dm-CHi"/>
+                <constraint firstAttribute="bottom" secondItem="qOp-nO-Epw" secondAttribute="bottom" id="xZd-Yb-oXq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="emoticionBtn" destination="4fD-bb-AGb" id="IvO-cX-U3C"/>
+            </connections>
+            <point key="canvasLocation" x="343" y="221.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="emoticon_keyboard_magnifier" width="64" height="91"/>
+    </resources>
+</document>
