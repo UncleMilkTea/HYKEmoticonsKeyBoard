@@ -51,5 +51,6 @@ private lazy var emoticionsKeyBoard:HYKEmoticionsView = HYKEmoticionsView(frame:
 
 ## Author
 
-Weibo:[@老实人要刨你家祖坟了](http://weibo.com/caoeggs) 
+Weibo:[@老实人要刨你家祖坟了](http://weibo.com/caoeggs)
+
 Github:[houyukun](https://github.com/houyukun) 
